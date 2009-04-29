@@ -14,6 +14,8 @@ Only one blog can be configured at this stage, and must be set up by the adminis
 
 If you hit post on a topic more than one time, it will post it multiple times - so be a little careful :).
 
+you may need to enable xmlrpc posting for your wordpress installation.. (http://yourblog.home.org/wp-admin/options-writing.php)
+
 ---++ Examples
 to post the webstatistics topic to the configured wordpress blog, craft a URL like:
 
