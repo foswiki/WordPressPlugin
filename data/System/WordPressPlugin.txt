@@ -19,15 +19,11 @@ to post the webstatistics topic to the configured wordpress blog, craft a URL li
 
 %SCRIPTURL{rest}%/WordPressPlugin/post?topic=Sandbox.WebStatistics
 
-
 ---++ Installation Instructions
 
 %$INSTALL_INSTRUCTIONS%
 
 ---++ Info
-
-Many thanks to the following sponsors for supporting this work:
-   * Acknowledge any sponsors here
 
 |  Author(s): | SvenDowideit@fosiki.com |
 |  Copyright: | &copy; Sven Dowideit - http://fosiki.com |

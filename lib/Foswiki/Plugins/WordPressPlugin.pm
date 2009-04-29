@@ -124,8 +124,12 @@ sub postTopic {
    if ($text =~ /^\s*---\+*/m) {
       $text =~ s/^\s*---\+*(.*)\n//m;
       $title = $1;
+      $title =~ s/^[!\s]*//;
       $title = Foswiki::Func::expandCommonVariables( $title, $topic, $web, $meta );
    }
+   
+   #remove commented out html..
+   $text =~ s/<!--.*?-->//gs;
    
    my $renderedText = Foswiki::Func::expandCommonVariables( $text, $topic, $web, $meta );
    my $html = Foswiki::Func::renderText($renderedText, $web, $topic);
