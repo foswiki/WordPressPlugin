@@ -1,0 +1,41 @@
+---+!! !WordPressPlugin
+<!--
+One line description, required for extensions repository catalog.
+   * Set SHORTDESCRIPTION = post a topic to your WordPress blog
+-->
+%SHORTDESCRIPTION%
+
+%TOC%
+
+---++ Usage
+This plugin registers a restHandler that allows you to post a Foswiki topic to your wordpress Blog. 
+
+Only one blog can be configured at this stage, and must be set up by the administrator in =configure=, and the user must be an =author=.
+
+If you hit post on a topic more than one time, it will post it multiple times - so be a little careful :).
+
+---++ Examples
+to post the webstatistics topic to the configured wordpress blog, craft a URL like:
+
+%SCRIPTURL{rest}%/WordPressPlugin/post?topic=Sandbox.WebStatistics
+
+
+---++ Installation Instructions
+
+%$INSTALL_INSTRUCTIONS%
+
+---++ Info
+
+Many thanks to the following sponsors for supporting this work:
+   * Acknowledge any sponsors here
+
+|  Author(s): | SvenDowideit@fosiki.com |
+|  Copyright: | &copy; Sven Dowideit - http://fosiki.com |
+|  License: | [[http://www.gnu.org/licenses/gpl.html][GPL 3 (Gnu General Public License)]] |
+|  Version: | %$VERSION% |
+|  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  Dependencies: | %$DEPENDENCIES% |
+|  Home page: | http://foswiki.org/bin/view/Extensions/WordPressPlugin |
+|  Support: | http://foswiki.org/bin/view/Support/WordPressPlugin |
+
+<!-- Do _not_ attempt to edit this topic; it is auto-generated. -->

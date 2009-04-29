@@ -1,0 +1,4 @@
+# Release manifest for WordPressPlugin
+data/System/WordPressPlugin.txt 0644 Documentation
+lib/Foswiki/Plugins/WordPressPlugin.pm 0644 Perl module
+lib/Foswiki/Plugins/WordPressPlugin/Config.spec
